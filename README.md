@@ -1,11 +1,11 @@
 # Handwriting Generation
-This repository contains a quick modified implementation of Alex Graves' paper: [Generating Sequences With Recurrent Neural Networks](https://arxiv.org/abs/1308.0850) using pytorch.
+Generating human-like handwriting by machine from an input text given by the user is very complex, so we tried to do this with Deep learning model named LSTM. It might not be possible for every human being to write in perfect cursive handwriting because each letter in cursive gets shaped differently depending on what letters surround it, and everyone has a different style of writing
 
 
 ### The results I obtained
 1. Default Architecture: 2-layer LSTM network with skip connections. A window layer is implemented for the handwriting synthesis task (conditional handwriting generation) as adapted from Alex Graves' work.
 
-2. The results shown here are obtained by training using the default configurations below for 50 epochs and 60 epchs respectively for each task. The training is surprisingly stable even with 800 timesteps. Learning rate annealing is implemented but not used by default.
+2. The results shown here are obtained by training using the default configurations below for 50 epochs and 60 epochs respectively for each task. The training is surprisingly stable even with 800 timesteps. Learning rate annealing is implemented but not used by default.
 
 ```
     parser.add_argument('--task', type=str, default='rand_write',
