@@ -1,5 +1,5 @@
 # Handwriting Generation
-Generating human-like handwriting by machine from an input text given by the user is very complex, so we tried to do this with Deep learning model named LSTM. It might not be possible for every human being to write in perfect cursive handwriting because each letter in cursive gets shaped differently depending on what letters surround it, and everyone has a different style of writing
+Generating human-like handwriting by machine from an input text given by the user is very complex, so we tried to do this with Deep learning model named LSTM. It is special kind of recurrent neural network that is capable of learning long term dependencies in data.
 
 
 ### The results I obtained
